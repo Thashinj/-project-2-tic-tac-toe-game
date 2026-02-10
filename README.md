@@ -1,2 +1,3 @@
 # -project2-tic-tac-toe-game
-Project 2 - Tic Tac Toe Game with HTML, CSS and JavaScript
+Project 2 - Tic Tac Toe Game using HTML, CSS and JavaScript
+
