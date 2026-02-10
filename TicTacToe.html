@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- To add a reponsive design so the project is compatible in web and phone interfaces -->
+        <meta charset="utf-8">
+        <meta name= "viewport", content="width=device-width initial-scale=1">
+
+        <title>Project 2 - Tic Tac Toe Game</title>
+
+         <!-- Link tag links the HTML file to the CSS file for the stylesheet elements to appear on the site -->
+        <link rel = "stylesheet" href = "TicTacinterface.css">
+    </head>
+    <body>
+        <h2>Tic-Tac-Toe Game</h2>
+
+        <!-- Div with id 'container' groups the game grid -->
+        <div id = "container">
+            <div class="sq"></div> <!-- Squares part of the game grid where players can insert X or O -->
+            <div class="sq"></div>
+            <div class="sq"></div>
+            <div class="sq"></div>
+            <div class="sq"></div>
+            <div class="sq"></div>
+            <div class="sq"></div>
+            <div class="sq"></div>
+            <div class="sq"></div>
+        </div>
+
+        <!-- Div 'reset' holds the reset button -->
+        <div id = "reset">
+        <button onclick = "reset()">Reset Game</button> <!-- On clicking, the game resets for a new round -->
+        </div>
+
+        <script src = "TicTacworking.js"></script> <!-- Links the js file with the HTML file for the respective functions to work -->
+    </body>
+</html>

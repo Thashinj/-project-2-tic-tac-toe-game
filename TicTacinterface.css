@@ -1,0 +1,68 @@
+/* @font-face helps in importing custom fonts (.ttf) */
+@font-face {
+    src: url('MinecraftBold-nMK1.otf');
+    font-family: 'Minecraft';
+}
+
+/* Changes font-family on the everything */
+* {
+    font-family: 'Minecraft';
+}
+
+/* Adding background and changing font-size */
+body {
+    background-image: url('gamebackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    font-size: 25px;
+}
+
+/* Changes heading 2 color, font-size and aligns to center */
+h2 {
+    color:#8576FF;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Changes heading 3 color and aligns to center */
+h3 {
+    color: #A3FFD6;
+    text-align: center;
+}
+
+/* container with display type grid, padding, gap, columns-rows template and aligned to center */
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    grid-template-rows: repeat(3, 90px);
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Changes color, font-size and padding of the squares of the game grid*/
+.sq {
+    background-color: #92d2ff;
+    padding: 20px;
+    text-align: center;
+    font-size: 45px;
+}
+
+/* div display is flexible and content is justified to center */
+div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Changes button features like text-align, cursor pointer, border and font-size */
+button {
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #0d0a36;
+    border: 2px solid #8576FF;
+    font-size: 20px;
+    color: #8576FF;
+}
